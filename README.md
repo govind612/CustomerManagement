@@ -3,8 +3,9 @@ A Web App to manage and perform crud operation on customerlist
 Repository Tree Structure
 Here's a general structure based on typical Java web applications with JSP, Servlets, and DAO patterns:
 
-css
-Copy code
+
+
+
 CustomerManagement/
 ├── src/
 │   ├── main/
@@ -40,6 +41,11 @@ CustomerManagement/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+
+
+
+
+
 Detailed Documentation
 Repository Overview
 The CustomerManagement repository is a Java web application that uses JSP, Servlets, and the DAO pattern to manage customer information. It includes functionalities such as user login, customer list management, and CRUD operations for customers.
