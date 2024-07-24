@@ -7,43 +7,6 @@ Repository Tree Structure
 Here's a general structure based on typical Java web applications with JSP, Servlets, and DAO patterns:
 
 
-CustomerManagement/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   ├── tap/
-│   │   │   │   │   ├── dao/
-│   │   │   │   │   │   ├── CustomerDAO.java
-│   │   │   │   │   │   └── CustomerDAOImp.java
-│   │   │   │   │   ├── model/
-│   │   │   │   │   │   └── Customer.java
-│   │   │   │   │   ├── service/
-│   │   │   │   │   │   ├── CustomerService.java
-│   │   │   │   │   │   └── CustomerServiceImpl.java
-│   │   │   │   │   └── servlet/
-│   │   │   │   │       ├── CustomerServlet.java
-│   │   │   │   │       └── LoginServlet.java
-│   │   │   └── web/
-│   │   │       └── WEB-INF/
-│   │   │           └── lib/
-│   │   └── resources/
-│   ├── test/
-│   │   └── java/
-│   └── resources/
-├── web/
-│   ├── css/
-│   │   └── style.css
-│   ├── updateCustomer.jsp
-│   ├── customerList.jsp
-│   ├── customerForm.jsp
-│   └── index.jsp
-├── .gitignore
-├── pom.xml
-└── README.md
-
-
-
 
 
 
